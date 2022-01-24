@@ -5,11 +5,17 @@
       <map>
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/background_blue.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/group_17.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/ic_wallet.xml" value="0.18020833333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/textbox_border.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/wave_signup.xml" value="0.18020833333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_navbar_main.xml" value="0.15" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_otp_page.xml" value="0.22" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/fragment_home_fragment.xml" value="0.121875" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/fragment_profile_fragment.xml" value="0.121875" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/fragment_wallet_fragment.xml" value="0.121875" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/menu/nav_menu.xml" value="0.1640625" />
       </map>
     </option>
   </component>

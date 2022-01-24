@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Digi_Yatra_1.2</string>
+
+
+
+    <string name="Wallet_Fragment_1">Wallet</string>
+    <string name="Home_Fragment_2">Home</string>
+    <string name="Profile_Fragment_3">Profile</string>
+
+
 </resources>
