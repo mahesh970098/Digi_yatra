@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/wallet_fragment">
+
+    <fragment
+        android:id="@+id/wallet_fragment"
+        android:name="com.example.digi_yatra_12.fragments.Wallet_fragment"
+        android:label="Wallet_fragment" />
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.digi_yatra_12.fragments.Home_fragment"
+        android:label="Home_fragment" />
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="com.example.digi_yatra_12.fragments.Profile_fragment"
+        android:label="Profile_fragment" />
+</navigation>
