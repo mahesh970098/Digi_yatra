@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <shape xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:shape="rectangle">-->
+<!--        <solid android:color="#000000" />-->
+<!--        <padding-->
+<!--            android:bottom="6dp" />-->
+<!--        <stroke android:width="6dp" android:color="#ffffffff" />-->
+<!--        <corners-->
+<!--            android:radius="12dp" />-->
+<!--    </shape>-->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1" d="M0,192L60,176C120,160,240,128,360,133.3C480,139,600,181,720,202.7C840,224,960,224,1080,224C1200,224,1320,224,1380,224L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+    </svg>
+
+</layer-list>
