@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Digi_Yatra_12">
         <activity
+            android:name=".Pop_sucess_register"
+            android:theme="@style/Theme.AppCompat.CustomTheme"
+            android:exported="false" />
+        <activity
             android:name=".navbar.Navbar_main"
             android:exported="false" />
         <activity

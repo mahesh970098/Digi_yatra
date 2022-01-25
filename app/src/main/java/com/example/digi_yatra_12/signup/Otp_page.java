@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.digi_yatra_12.Pop_sucess_register;
 import com.example.digi_yatra_12.R;
 import com.example.digi_yatra_12.navbar.Navbar_main;
 
