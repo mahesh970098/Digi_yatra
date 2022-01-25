@@ -9,8 +9,8 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_370sdp"
-        android:layout_marginBottom="@dimen/_120sdp"
+        android:layout_height="@dimen/_380sdp"
+        android:layout_marginBottom="@dimen/_110sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -21,8 +21,8 @@
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="@dimen/_201sdp"
-        android:layout_height="@dimen/_36sdp"
+        android:layout_width="@dimen/_248sdp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_15sdp"
         android:layout_marginTop="@dimen/_10sdp"
         android:layout_marginEnd="@dimen/_16sdp"
@@ -30,7 +30,7 @@
         android:text="Enjoy a Seamless, Hassle-free Digital experience at all airports in India!"
         android:textAlignment="center"
         android:textColor="#041A55"
-        android:textSize="@dimen/_10sdp"
+        android:textSize="@dimen/_14sdp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="@dimen/_260sdp"
+        android:layout_width="@dimen/_280sdp"
         android:layout_height="@dimen/_136sdp"
         android:layout_marginStart="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_134sdp"
@@ -72,16 +72,16 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="@dimen/_41sdp"
+        android:layout_width="@dimen/_45sdp"
         android:layout_height="@dimen/_28sdp"
         android:layout_marginStart="@dimen/_30sdp"
-        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_65sdp"
         android:layout_marginEnd="@dimen/_26sdp"
-        android:layout_marginBottom="@dimen/_23sdp"
+        android:layout_marginBottom="@dimen/_33sdp"
         app:layout_constraintBottom_toBottomOf="parent"
 
         app:layout_constraintEnd_toStartOf="@+id/imageView14"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="1.0"
@@ -92,7 +92,7 @@
         android:layout_width="@dimen/_45sdp"
         android:layout_height="@dimen/_23sdp"
         android:layout_marginStart="@dimen/_31sdp"
-        android:layout_marginTop="@dimen/_75sdp"
+        android:layout_marginTop="@dimen/_65sdp"
         android:layout_marginEnd="@dimen/_27sdp"
         android:layout_marginBottom="@dimen/_34sdp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -112,7 +112,6 @@
         android:layout_marginTop="@dimen/_10sdp"
         android:layout_marginEnd="@dimen/_91sdp"
         android:layout_marginBottom="7dp"
-        android:background="#000000"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

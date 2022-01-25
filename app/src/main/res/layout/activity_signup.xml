@@ -21,17 +21,6 @@
         app:layout_constraintVertical_bias="0.402"
         app:srcCompat="@drawable/rectangle_3932" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="598dp"
-        android:layout_height="456dp"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/intersection_2" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -39,7 +28,7 @@
         android:layout_marginTop="@dimen/_16sdp"
         android:layout_marginBottom="@dimen/_2sdp"
         android:text="Mobile Number"
-        android:textSize="@dimen/_6ssp"
+        android:textSize="@dimen/_9ssp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
@@ -49,7 +38,7 @@
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="@dimen/_161sdp"
+        android:layout_width="@dimen/_241sdp"
         android:layout_height="@dimen/_32sdp"
         android:layout_marginStart="@dimen/_28sdp"
         android:layout_marginTop="@dimen/_27sdp"
@@ -69,15 +58,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="@dimen/_66sdp"
-        android:layout_height="@dimen/_30sdp"
+        android:layout_width="208dp"
+        android:layout_height="70dp"
         android:layout_marginStart="@dimen/_27sdp"
         android:layout_marginTop="@dimen/_104sdp"
         android:layout_marginEnd="@dimen/_117sdp"
         android:text="Sign Up"
 
         android:textColor="#000000"
-        android:textSize="@dimen/_18ssp"
+        android:textSize="@dimen/_28ssp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -86,20 +75,20 @@
 
     <Button
         android:id="@+id/RegisterBtn"
-        android:layout_width="@dimen/_161sdp"
-        android:layout_height="@dimen/_38sdp"
+        android:layout_width="@dimen/_241sdp"
+        android:layout_height="@dimen/_37sdp"
         android:layout_centerInParent="true"
 
         android:layout_marginStart="@dimen/_27sdp"
-        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:layout_marginEnd="@dimen/_25sdp"
         android:text="REGISTER"
 
         android:textAlignment="center"
-        android:textSize="@dimen/_8ssp"
+        android:textSize="@dimen/_9ssp"
         app:backgroundTint="#979797"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.011"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
@@ -112,10 +101,10 @@
         android:layout_marginEnd="@dimen/_49sdp"
         android:text="By cllicking Register,You agree to our "
         android:textColor="#000000"
-        android:textSize="@dimen/_7ssp"
+        android:textSize="@dimen/_11ssp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/RegisterBtn" />
 
@@ -128,10 +117,10 @@
         android:layout_marginEnd="@dimen/_75sdp"
         android:text="Terms Data Policy"
         android:textColor="#00539B"
-        android:textSize="@dimen/_7ssp"
+        android:textSize="@dimen/_11ssp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.605"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
