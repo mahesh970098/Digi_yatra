@@ -115,7 +115,7 @@
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/rectangle_3932" />
+        app:srcCompat="@drawable/rectangle_68" />
 
 
     <TextView

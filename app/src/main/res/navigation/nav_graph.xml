@@ -11,13 +11,18 @@
     <fragment
         android:id="@+id/wallet_fragment2"
         android:name="com.example.digi_yatra_12.fragments.Wallet_fragment"
-        android:label="Wallet_fragment" />
+        android:label="Wallet_fragment" >
+        <action
+            android:id="@+id/action_wallet_fragment2_to_home_fragment22"
+            app:destination="@id/home_fragment22" />
+    </fragment>
     <fragment
         android:id="@+id/profile_fragment2"
         android:name="com.example.digi_yatra_12.fragments.Profile_fragment"
         android:label="Profile_fragment" />
     <fragment
-        android:id="@+id/extra_fragment"
-        android:name="com.example.digi_yatra_12.fragments.Extra_fragment"
-        android:label="Extra_fragment" />
+        android:id="@+id/home_fragment22"
+        android:name="com.example.digi_yatra_12.fragments.Home_fragment2"
+        android:label="fragment_home_fragment2"
+        tools:layout="@layout/fragment_home_fragment2" />
 </navigation>

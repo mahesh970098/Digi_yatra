@@ -10,9 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Digi_Yatra_12">
         <activity
-            android:name=".Pop_sucess_register"
-            android:theme="@style/Theme.AppCompat.CustomTheme"
+            android:name=".fragments.Add_data_url"
             android:exported="false" />
+        <activity
+            android:name=".fragments.Pop_acknowledgement"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.CustomTheme" />
+        <activity
+            android:name=".fragments.Pop_issuer"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.CustomTheme" />
+        <activity
+            android:name=".fragments.Credential_Choose"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.pop_crediential"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.CustomTheme" />
+        <activity
+            android:name=".Pop_sucess_register"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.CustomTheme" />
         <activity
             android:name=".navbar.Navbar_main"
             android:exported="false" />

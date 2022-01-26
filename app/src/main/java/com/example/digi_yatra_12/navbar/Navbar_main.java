@@ -27,6 +27,7 @@ public class Navbar_main extends AppCompatActivity {
         fragmentTransaction.add(R.id.fragment_container,new Fragment());
         fragmentTransaction.commit();
 
+
     }
 
 }
