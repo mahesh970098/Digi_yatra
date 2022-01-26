@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002E56"
+
+    tools:context=".fragments.Pop_issuer">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="@dimen/_101sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_33sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:layout_marginEnd="@dimen/_70sdp"
+        android:layout_marginBottom="@dimen/_17sdp"
+        android:text="identity Credential issuer"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toTopOf="@+id/popisuerBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <ImageButton
+        android:id="@+id/popisuerBtn"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_46sdp"
+        android:layout_marginEnd="@dimen/_26sdp"
+        android:layout_marginBottom="@dimen/_170sdp"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21"
+        app:srcCompat="@drawable/textbox_border" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_9sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_135sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/popisuerBtn"
+        app:layout_constraintEnd_toEndOf="@+id/popisuerBtn"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="@+id/popisuerBtn"
+        app:layout_constraintTop_toTopOf="@+id/popisuerBtn"
+        app:layout_constraintVertical_bias="0.703"
+        app:srcCompat="@drawable/rectangle_68" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:layout_marginEnd="@dimen/_80sdp"
+        android:layout_marginBottom="@dimen/_11sdp"
+        android:text="Digi Yatra"
+        android:textColor="#000000"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/popisuerBtn"
+        app:layout_constraintEnd_toEndOf="@+id/popisuerBtn"
+        app:layout_constraintStart_toStartOf="@+id/popisuerBtn"
+        app:layout_constraintTop_toTopOf="@+id/popisuerBtn" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="@dimen/_33sdp"
+        android:layout_height="@dimen/_26sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_13sdp"
+        android:background="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="@+id/popisuerBtn"
+        app:layout_constraintEnd_toEndOf="@+id/popisuerBtn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toTopOf="@+id/popisuerBtn"
+        app:srcCompat="@drawable/ic_forward" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

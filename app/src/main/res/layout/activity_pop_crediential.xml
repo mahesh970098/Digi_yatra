@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".fragments.pop_crediential">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_67sdp"
+        android:layout_marginTop="@dimen/_42sdp"
+        android:layout_marginEnd="@dimen/_67sdp"
+        android:layout_marginBottom="@dimen/_42sdp"
+        android:text="What is a Credential ?"
+        android:textColor="#000000"
+        android:textSize="@dimen/_11ssp"
+        app:layout_constraintBottom_toTopOf="@+id/OkBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868" />
+
+    <Button
+        android:id="@+id/OkBtn"
+        android:layout_width="@dimen/_78sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_centerInParent="true"
+
+        android:layout_marginStart="@dimen/_77sdp"
+        android:layout_marginTop="@dimen/_92sdp"
+
+        android:layout_marginEnd="@dimen/_77sdp"
+        android:layout_marginBottom="@dimen/_75sdp"
+        android:text="Ok"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_8ssp"
+        app:backgroundTint="#002E56"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855" />
+</androidx.constraintlayout.widget.ConstraintLayout>
