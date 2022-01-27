@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".signup.Otp_page">
 
     <ImageView
@@ -185,6 +186,7 @@
         android:layout_marginBottom="@dimen/_17sdp"
         android:text="Didn't receive otp?"
         android:textSize="@dimen/_10ssp"
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/SubmitBtn"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
         app:layout_constraintHorizontal_bias="0.0"
@@ -213,7 +215,7 @@
         android:layout_width="@dimen/_231sdp"
         android:layout_height="@dimen/_35sdp"
         android:layout_centerInParent="true"
-
+android:textColor="#ffffff"
         android:layout_marginStart="@dimen/_25sdp"
         android:layout_marginTop="@dimen/_48sdp"
         android:layout_marginEnd="@dimen/_28sdp"

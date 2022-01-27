@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.example.digi_yatra_12.R;
 
@@ -29,6 +30,16 @@ Button urlBtn;
 
                 finish();
 
+
+            }
+        });
+
+        ImageButton popup = (ImageButton) findViewById(R.id.imageBtn);
+        popup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Add_data_url.this, retrieved_addheerdata.class);
+                startActivity(i);
 
             }
         });

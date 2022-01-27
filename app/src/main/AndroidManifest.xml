@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Digi_Yatra_12">
         <activity
+            android:name=".fragments.Camera_profile2"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.Camera_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.Alomst_done"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.retrieved_addheerdata"
+            android:exported="false" />
+        <activity
             android:name=".fragments.Add_data_url"
             android:exported="false" />
         <activity

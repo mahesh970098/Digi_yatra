@@ -3,9 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:clickable="true"
-    android:focusable="true"
-    android:background="@color/white"
+
+    android:background="#ffffff"
     android:id="@+id/walletfragment">
 
     <Button
@@ -18,7 +17,7 @@
         android:layout_marginTop="@dimen/_18sdp"
         android:layout_marginEnd="@dimen/_26sdp"
         android:layout_marginBottom="@dimen/_218sdp"
-
+android:textColor="#ffffff"
         android:text="add your credential"
         android:textAlignment="center"
         android:textSize="@dimen/_6ssp"
