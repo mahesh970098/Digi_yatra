@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
+import android.widget.ImageSwitcher;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,9 +23,12 @@ import com.example.digi_yatra_12.R;
 import com.example.digi_yatra_12.databinding.FragmentHomeFragmentBinding;
 import com.example.digi_yatra_12.databinding.FragmentWalletFragmentBinding;
 import com.example.digi_yatra_12.signup.Signup;
+import com.smarteist.autoimageslider.SliderView;
+
+import java.util.ArrayList;
 
 public class Home_fragment extends Fragment {
-FragmentHomeFragmentBinding binding;
+    FragmentHomeFragmentBinding binding;
     Button add;
     Layout add1;
     Wallet_fragment firstfragment;
@@ -34,41 +39,82 @@ FragmentHomeFragmentBinding binding;
         super.onCreate(savedInstanceState);
     }
 
+    ImageSwitcher imageslider;
+
+    Intent intent;
+    String url1 = "https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg";
+    String url2 = "https://cdn03.collinson.cn/blog/2019/aug/header-airport-family-travel-vacation-5537204d-e09c-45b7-8db2-e4f2f58437b5.png?h=380&la=en&w=1280";
+    String url3 = "https://cdn03.collinson.cn/blog/2019/aug/header-airport-family-travel-vacation-5537204d-e09c-45b7-8db2-e4f2f58437b5.png?h=380&la=en&w=1280";
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home_fragment, container, false);
 
-        binding = FragmentHomeFragmentBinding.inflate(getLayoutInflater());
-//        add = (Button) view.findViewById(R.id.exampleBtn);
-//        add.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Fragment secondfragment=new Wallet_fragment();
-//                FragmentManager fragmentManager =getActivity().getSupportFragmentManager();
-//                FragmentTransaction fragmentTransaction =fragmentManager.beginTransaction();
-//                fragmentTransaction.replace(R.id.activity_main_nav_host_fragment,secondfragment);
-//                fragmentTransaction.addToBackStack(null);
-//                fragmentTransaction.commit();
 //
-//
+//        intent = new Intent(getActivity(), popup_Addheer.class);
+//        ImageButton button = (ImageButton) rootView.findViewById(R.id.upadateBtn);
+//        button.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                startActivity(intent);
 //            }
 //        });
 
-        return view;
+
+            View rootView = inflater.inflate(R.layout.fragment_home_fragment, container, false);
+            intent = new Intent(getActivity(), Pop_acknowledgement.class);
+
+// we are creating array list for storing our image urls.
+            ArrayList<SliderData> sliderDataArrayList = new ArrayList<>();
+
+            // initializing the slider view.
+            SliderView sliderView = rootView.findViewById(R.id.slider);
+
+            // adding the urls inside array list
+            sliderDataArrayList.add(new SliderData(url1));
+            sliderDataArrayList.add(new SliderData(url2));
+            sliderDataArrayList.add(new SliderData(url3));
+
+            // passing this array list inside our adapter class.
+            SliderAdapter adapter = new SliderAdapter(Home_fragment.this, sliderDataArrayList);
+
+            // below method is used to set auto cycle direction in left to
+            // right direction you can change according to requirement.
+            sliderView.setAutoCycleDirection(SliderView.LAYOUT_DIRECTION_LTR);
+
+            // below method is used to
+            // setadapter to sliderview.
+            sliderView.setSliderAdapter(adapter);
+
+            // below method is use to set
+            // scroll time in seconds.
+            sliderView.setScrollTimeInSec(3);
+
+            // to set it scrollable automatically
+            // we use below method.
+            sliderView.setAutoCycle(true);
+
+            // to start autocycle below method is used.
+            sliderView.startAutoCycle();
+
+            return rootView;
+        }
 
 
+//        public void onViewCreated(View view,  Bundle savedInstanceState) {
+//            super.onViewCreated(view, savedInstanceState);
+//
+//            ImageButton button = (ImageButton) view.findViewById(R.id.upadateBtn);
+//
+//            button.setOnClickListener(new View.OnClickListener() {
+//                public void onClick(View v) {
+//                    intent = new Intent(getActivity(), popup_scan_bording.class);
+//                    startActivity(intent);
+//                }
+//            });
+//
+//        }
+
     }
-    public  void onDestroy(){
-        super.onDestroy();
-        binding=null;
-    }
-//    private void changeFragment(Fragment fr){
-//        FrameLayout fl = (FrameLayout) findViewById(R.id.mainframe);
-//        fl.removeAllViews();
-//        FragmentTransaction transaction1 = getSupportFragmentManager().beginTransaction();
-//        transaction1.add(R.id.mainframe, fr);
-//        transaction1.commit();
-//    }
-}
+
 

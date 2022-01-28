@@ -10,7 +10,7 @@
     <Button
         android:id="@+id/addBtn"
         android:layout_width="@dimen/_222sdp"
-        android:layout_height="@dimen/_30sdp"
+        android:layout_height="@dimen/_35sdp"
         android:layout_centerInParent="true"
 
         android:layout_marginStart="@dimen/_26sdp"
@@ -20,7 +20,7 @@
 android:textColor="#ffffff"
         android:text="add your credential"
         android:textAlignment="center"
-        android:textSize="@dimen/_6ssp"
+        android:textSize="@dimen/_8ssp"
         app:backgroundTint="#002E56"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

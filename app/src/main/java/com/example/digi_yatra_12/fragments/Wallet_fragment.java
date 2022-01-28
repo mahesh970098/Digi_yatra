@@ -28,7 +28,7 @@ public class Wallet_fragment extends Fragment {
     Layout add1;
     Wallet_fragment firstfragment;
     Home_fragment2 secondFragment;
-    FragmentWalletFragmentBinding binding;
+
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -40,7 +40,7 @@ public class Wallet_fragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_wallet_fragment, container, false);
 
-        binding = FragmentWalletFragmentBinding.inflate(getLayoutInflater());
+
         add = (Button) view.findViewById(R.id.addBtn);
         add.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,8 +78,8 @@ public class Wallet_fragment extends Fragment {
 
 
     }
-public  void onDestroy(){
-    super.onDestroy();
-    binding=null;
-}
+//public  void onDestroy(){
+//    super.onDestroy();
+//    binding=null;
+//}
 }

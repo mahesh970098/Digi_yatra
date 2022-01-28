@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".fragments.Camera_profile2">
 
     <ImageView
@@ -153,10 +154,9 @@
         android:layout_marginBottom="152dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/textbox_border" />
+        app:srcCompat="@drawable/white_backgroound_radius" />
 
     <TextView
         android:id="@+id/textView2"
@@ -190,10 +190,10 @@
         android:textSize="@dimen/_8ssp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView28"
         app:layout_constraintEnd_toEndOf="@+id/imageView28"
-        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintHorizontal_bias="0.685"
         app:layout_constraintStart_toStartOf="@+id/imageView28"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.72" />
+        app:layout_constraintVertical_bias="0.576" />
 
     <TextView
         android:id="@+id/textView25"
@@ -316,9 +316,59 @@
         android:textSize="@dimen/_8ssp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView28"
         app:layout_constraintEnd_toStartOf="@+id/textView26"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="@+id/imageView28"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.768" />
+        app:layout_constraintVertical_bias="0.576" />
+
+    <Button
+        android:id="@+id/OkBtn3"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_29sdp"
+
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_129sdp"
+        android:layout_marginEnd="@dimen/_35sdp"
+        android:layout_marginBottom="@dimen/_13sdp"
+        android:text="Ok"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_8ssp"
+        app:backgroundTint="#002E56"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintStart_toEndOf="@+id/cancel_action"
+        app:layout_constraintTop_toTopOf="@+id/imageView28"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <Button
+        android:id="@+id/cancel_action"
+        android:layout_width="@dimen/_62sdp"
+        android:layout_height="@dimen/_29sdp"
+
+        android:layout_marginStart="@dimen/_35sdp"
+
+        android:layout_marginTop="@dimen/_128sdp"
+        android:layout_marginEnd="@dimen/_105sdp"
+        android:layout_marginBottom="@dimen/_13sdp"
+        android:background="?android:attr/selectableItemBackground"
+
+        android:text="CANCEL"
+        android:textColor="#002E56"
+        android:textSize="@dimen/_8ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView28"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/activity_main_bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
