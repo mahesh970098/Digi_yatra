@@ -28,6 +28,15 @@ public class Camera_profile2 extends AppCompatActivity {
             }
         });
 
+        Button btn1 =(Button) findViewById(R.id.cancel_action);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(Camera_profile2.this, Alomst_done.class);
+                startActivity(intent);
+            }
+        });
+
 
 
 

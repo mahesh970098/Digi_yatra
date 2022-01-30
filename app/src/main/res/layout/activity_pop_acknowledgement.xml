@@ -32,13 +32,13 @@
         android:layout_height="@dimen/_34sdp"
 
         android:layout_marginStart="@dimen/_9sdp"
-        android:layout_marginTop="@dimen/_140sdp"
+        android:layout_marginTop="@dimen/_160sdp"
         android:layout_marginEnd="@dimen/_15sdp"
         android:text="Ok"
         android:textColor="#ffffff"
         app:backgroundTint="#002E56"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toEndOf="@+id/cancel_action"
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
@@ -49,13 +49,13 @@
 
         android:layout_marginStart="@dimen/_15sdp"
 
-        android:layout_marginTop="@dimen/_140sdp"
+        android:layout_marginTop="@dimen/_160sdp"
         android:layout_marginEnd="@dimen/_98sdp"
         android:background="?android:attr/selectableItemBackground"
         android:text="CANCEL"
         android:textColor="#002E56"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
@@ -86,11 +86,11 @@
         android:layout_marginStart="@dimen/_26sdp"
         android:layout_marginTop="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_150sdp"
-        android:layout_marginBottom="@dimen/_7sdp"
+        android:layout_marginBottom="50dp"
         android:text="Face ID"
         android:textColor="#000000"
         android:textSize="@dimen/_8ssp"
-        app:layout_constraintBottom_toTopOf="@+id/textView32"
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -103,9 +103,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_26sdp"
-        android:layout_marginTop="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_13sdp"
         android:layout_marginEnd="@dimen/_97sdp"
-        android:layout_marginBottom="@dimen/_28sdp"
+        android:layout_marginBottom="@dimen/_13sdp"
         android:text="Govt photo ID Card"
         android:textColor="#000000"
         android:textSize="@dimen/_8sdp"
@@ -113,7 +113,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -123,16 +123,15 @@
         android:layout_marginStart="@dimen/_24sdp"
         android:layout_marginTop="@dimen/_58sdp"
         android:layout_marginEnd="@dimen/_92ssp"
-        android:layout_marginBottom="@dimen/_125sdp"
         android:text="Your data is safe and in your control."
         android:textColor="#000000"
         android:textSize="@dimen/_8ssp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cancel_action"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.037"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView28"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.18" />
 
     <TextView
         android:id="@+id/textView25"
@@ -146,10 +145,12 @@
 
         android:textSize="@dimen/_8ssp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cancel_action"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.155"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        app:layout_constraintVertical_bias="0.493" />
 
     <TextView
         android:id="@+id/textView26"
@@ -170,15 +171,16 @@ android:textSize="@dimen/_8ssp"
 
     <CheckBox
         android:id="@+id/checkBox2"
-        android:layout_width="@dimen/_15sdp"
-        android:layout_height="@dimen/_12sdp"
-        android:layout_marginStart="@dimen/_22sdp"
-        android:layout_marginEnd="@dimen/_3sdp"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_32sdp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/white_backgroound_radius"
+        android:backgroundTint="#ffffff"
         app:layout_constraintBottom_toBottomOf="@+id/textView25"
         app:layout_constraintEnd_toStartOf="@+id/textView25"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView25"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="@+id/textView25" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

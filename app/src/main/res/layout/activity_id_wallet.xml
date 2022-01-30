@@ -108,7 +108,7 @@
         android:layout_marginEnd="@dimen/_18sdp"
         android:layout_marginBottom="1dp"
         android:background="#ffffff"
-        app:layout_constraintBottom_toTopOf="@+id/addBtn"
+        app:layout_constraintBottom_toTopOf="@+id/HomeBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
@@ -242,7 +242,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/addBtn"
+        android:id="@+id/HomeBtn"
         android:layout_width="@dimen/_252sdp"
         android:layout_height="@dimen/_35sdp"
         android:layout_centerInParent="true"
@@ -322,12 +322,12 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/rectangle_68" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/activity_main_bottom_navigation_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/nav_menu" />
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/activity_main_bottom_navigation_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:menu="@menu/nav_menu" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>

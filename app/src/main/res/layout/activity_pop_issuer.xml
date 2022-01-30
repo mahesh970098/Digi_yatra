@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#002E56"
-
     tools:context=".fragments.Pop_issuer">
 
     <TextView
@@ -83,13 +82,13 @@
         android:layout_marginTop="@dimen/_14sdp"
         android:layout_marginEnd="@dimen/_10sdp"
         android:layout_marginBottom="@dimen/_13sdp"
-        android:background="@color/white"
-
+        android:background="#000000"
+        android:backgroundTint="#ffffff"
         app:layout_constraintBottom_toBottomOf="@+id/popisuerBtn"
         app:layout_constraintEnd_toEndOf="@+id/popisuerBtn"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView22"
         app:layout_constraintTop_toTopOf="@+id/popisuerBtn"
-        app:srcCompat="@drawable/ic_forward" />
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

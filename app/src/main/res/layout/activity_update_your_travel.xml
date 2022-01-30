@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".fragments.Credential_Choose">
-
+    tools:context=".fragments.Update_your_travel">
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
@@ -14,7 +13,7 @@
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginTop="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_125sdp"
-        android:text="Add your credential"
+        android:text="Update your Travel"
         android:textColor="#000000"
         android:textSize="@dimen/_18ssp"
         android:textStyle="bold"
@@ -46,9 +45,9 @@
         android:layout_marginTop="@dimen/_31sdp"
         android:layout_marginEnd="@dimen/_64sdp"
         android:layout_marginBottom="@dimen/_395sdp"
-        android:text="What credential would you like to add?"
+        android:text="How would you like to update your travel?"
         android:textColor="#000000"
-        android:textSize="@dimen/_8ssp"
+        android:textSize="@dimen/_11ssp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,38 +90,40 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/grey_background" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView7"
         android:layout_width="@dimen/_43sdp"
         android:layout_height="@dimen/_31sdp"
+        android:background="#E5E5E5"
         app:layout_constraintBottom_toBottomOf="@+id/identitialBtn"
         app:layout_constraintEnd_toEndOf="@+id/identitialBtn"
         app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="@+id/identitialBtn"
         app:layout_constraintTop_toTopOf="@+id/identitialBtn"
         app:layout_constraintVertical_bias="0.224"
-        app:srcCompat="@drawable/group_7530" />
+        app:srcCompat="@drawable/ic_scanner_24" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView8"
         android:layout_width="@dimen/_43sdp"
         android:layout_height="@dimen/_35sdp"
+        android:background="#E5E5E5"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="@+id/imageButton3"
         app:layout_constraintStart_toStartOf="@+id/imageButton3"
         app:layout_constraintTop_toTopOf="@+id/imageButton3"
         app:layout_constraintVertical_bias="0.228"
-        app:srcCompat="@drawable/group_7532" />
+        app:srcCompat="@drawable/ic_scanner_24" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="@dimen/_38sdp"
+        android:layout_width="@dimen/_55sdp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_12sdp"
         android:layout_marginTop="@dimen/_26sdp"
         android:layout_marginEnd="@dimen/_12sdp"
         android:layout_marginBottom="@dimen/_26sdp"
-        android:text="identity Credential"
+        android:text="Scan Boarding Pass"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="@dimen/_8ssp"
@@ -134,13 +135,13 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="@dimen/_38sdp"
+        android:layout_width="@dimen/_68sdp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_12sdp"
         android:layout_marginTop="@dimen/_22sdp"
         android:layout_marginEnd="@dimen/_12sdp"
         android:layout_marginBottom="@dimen/_26sdp"
-        android:text="Health Credential"
+        android:text="Upload Boarding Pass/ ETKT"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="@dimen/_8ssp"
@@ -149,5 +150,6 @@
         app:layout_constraintEnd_toEndOf="@+id/imageButton3"
         app:layout_constraintStart_toStartOf="@+id/imageButton3"
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

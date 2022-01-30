@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.digi_yatra_12">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -11,6 +12,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Digi_Yatra_12">
+        <activity
+            android:name=".fragments.Credentital_details"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.CustomTheme"/>
+        <activity
+            android:name=".fragments.Sucessufully_reg2"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.Scan_bording_pass"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.Update_your_travel"
+            android:exported="false" />
         <activity
             android:name=".fragments.Id_wallet"
             android:exported="false" />

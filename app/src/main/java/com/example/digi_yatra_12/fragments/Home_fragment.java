@@ -28,11 +28,12 @@ import com.smarteist.autoimageslider.SliderView;
 import java.util.ArrayList;
 
 public class Home_fragment extends Fragment {
-    FragmentHomeFragmentBinding binding;
-    Button add;
+//    FragmentHomeFragmentBinding binding;
+
+    ImageButton add;
     Layout add1;
     Wallet_fragment firstfragment;
-    Home_fragment2 secondFragment;
+
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -42,8 +43,8 @@ public class Home_fragment extends Fragment {
     ImageSwitcher imageslider;
 
     Intent intent;
-    String url1 = "https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg";
-    String url2 = "https://cdn03.collinson.cn/blog/2019/aug/header-airport-family-travel-vacation-5537204d-e09c-45b7-8db2-e4f2f58437b5.png?h=380&la=en&w=1280";
+    String url2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCqZAnX28YoyZnR0KUGsq9eVAeRzBbnfibng&usqp=CAU";
+    String url1 = "https://cdn03.collinson.cn/blog/2019/aug/header-airport-family-travel-vacation-5537204d-e09c-45b7-8db2-e4f2f58437b5.png?h=380&la=en&w=1280";
     String url3 = "https://cdn03.collinson.cn/blog/2019/aug/header-airport-family-travel-vacation-5537204d-e09c-45b7-8db2-e4f2f58437b5.png?h=380&la=en&w=1280";
 
     @Nullable
@@ -101,19 +102,20 @@ public class Home_fragment extends Fragment {
         }
 
 
-//        public void onViewCreated(View view,  Bundle savedInstanceState) {
-//            super.onViewCreated(view, savedInstanceState);
-//
-//            ImageButton button = (ImageButton) view.findViewById(R.id.upadateBtn);
-//
-//            button.setOnClickListener(new View.OnClickListener() {
-//                public void onClick(View v) {
-//                    intent = new Intent(getActivity(), popup_scan_bording.class);
-//                    startActivity(intent);
-//                }
-//            });
-//
-//        }
+        public void onViewCreated(View view,  Bundle savedInstanceState) {
+            super.onViewCreated(view, savedInstanceState);
+
+
+            add=(ImageButton) view.findViewById(R.id.imageButton15);
+
+            add.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    intent = new Intent(getActivity(), Update_your_travel.class);
+                    startActivity(intent);
+                }
+            });
+
+        }
 
     }
 

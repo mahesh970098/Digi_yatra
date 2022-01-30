@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".fragments.Camera_Profile">
 
     <ImageView
@@ -120,7 +121,7 @@
         android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/_8sdp"
         android:text="Verify ID"
         android:textColor="#333333"
         android:textSize="@dimen/_8ssp"
@@ -129,25 +130,16 @@
         app:layout_constraintStart_toStartOf="@+id/imageView16"
         app:layout_constraintTop_toBottomOf="@+id/imageView16" />
 
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="208dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
         android:id="@+id/cameraimg1"
-        android:layout_width="266dp"
-        android:layout_height="253dp"
-        android:layout_marginTop="100dp"
+        android:layout_width="@dimen/_133sdp"
+        android:layout_height="@dimen/_125sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView20"
         app:layout_constraintEnd_toEndOf="@+id/imageView20"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
         app:srcCompat="@drawable/rounded_profile" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

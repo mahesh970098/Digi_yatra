@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".fragments.Sucessufully_reg2">
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_84sdp"
+        android:layout_marginTop="@dimen/_199sdp"
+        android:layout_marginEnd="@dimen/_87sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        app:layout_constraintBottom_toTopOf="@+id/textView56"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tick_mark" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="@dimen/_185sdp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_37sdp"
+        android:layout_marginTop="@dimen/_245sdp"
+        android:layout_marginEnd="@dimen/_37sdp"
+        android:layout_marginBottom="@dimen/_199sdp"
+        android:text="You have successfully registered for a Seamless, Hassle-free Digi Yatra travel!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
