@@ -210,13 +210,12 @@
         android:layout_centerInParent="true"
 
         android:layout_marginStart="@dimen/_56sdp"
-
         android:layout_marginTop="@dimen/_39sdp"
         android:layout_marginEnd="@dimen/_56sdp"
         android:layout_marginBottom="@dimen/_46sdp"
         android:text="OK"
         android:textAlignment="center"
-        android:textSize="@dimen/_9ssp"
+        android:textSize="@dimen/_8ssp"
         app:backgroundTint="#002E56"
         app:layout_constraintBottom_toBottomOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="@+id/imageView17"

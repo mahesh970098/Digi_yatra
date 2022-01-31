@@ -310,7 +310,7 @@
         android:id="@+id/imageView23"
         android:layout_width="@dimen/_30sdp"
         android:layout_height="@dimen/_30sdp"
-        android:layout_marginStart="295dp"
+        android:layout_marginStart="@dimen/_150sdp"
         android:layout_marginTop="@dimen/_7sdp"
         android:layout_marginEnd="@dimen/_9sdp"
         android:layout_marginBottom="@dimen/_55sdp"

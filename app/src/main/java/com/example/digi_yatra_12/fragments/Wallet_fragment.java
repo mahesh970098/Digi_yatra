@@ -51,7 +51,7 @@ public class Wallet_fragment extends Fragment {
 //                fragmentTransaction.replace(R.id.activity_main_nav_host_fragment,secondfragment);
 //                fragmentTransaction.addToBackStack(null);
 //                fragmentTransaction.commit();
-                Intent intent =new Intent(getActivity(),pop_crediential.class);
+                Intent intent =new Intent(getActivity(),Credential_Choose.class);
                 startActivity(intent);
 
 
@@ -67,20 +67,20 @@ public class Wallet_fragment extends Fragment {
 //        });
 
 
-        ImageButton back =(ImageButton) view.findViewById(R.id.backBtn1);
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment secondfragment=new Home_fragment();
-                FragmentManager fragmentManager =getActivity().getSupportFragmentManager();
-                FragmentTransaction fragmentTransaction =fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.fragment_container,secondfragment);
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
-
-
-            }
-        });
+//        ImageButton back =(ImageButton) view.findViewById(R.id.backBtn1);
+//        back.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Fragment secondfragment=new Home_fragment();
+//                FragmentManager fragmentManager =getActivity().getSupportFragmentManager();
+//                FragmentTransaction fragmentTransaction =fragmentManager.beginTransaction();
+//                fragmentTransaction.replace(R.id.fragment_container,secondfragment);
+//                fragmentTransaction.addToBackStack(null);
+//                fragmentTransaction.commit();
+//
+//
+//            }
+//        });
 
 
      return view;

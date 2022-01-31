@@ -40,10 +40,11 @@
 
     <ImageButton
         android:id="@+id/backBtn1"
-        android:layout_width="@dimen/_16sdp"
-        android:layout_height="@dimen/_25sdp"
+        android:layout_width="@dimen/_21sdp"
+        android:layout_height="@dimen/_26sdp"
         android:layout_marginStart="@dimen/_12sdp"
         android:layout_marginTop="@dimen/_8sdp"
+
         android:background="#EBF3FC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.003"
@@ -83,7 +84,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/UrlBtn"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/group_7521" />
 
     <Button

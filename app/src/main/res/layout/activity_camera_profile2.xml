@@ -323,8 +323,8 @@
 
     <Button
         android:id="@+id/OkBtn3"
-        android:layout_width="@dimen/_61sdp"
-        android:layout_height="@dimen/_29sdp"
+        android:layout_width="@dimen/_71sdp"
+        android:layout_height="@dimen/_31sdp"
 
         android:layout_marginStart="@dimen/_25sdp"
         android:layout_marginTop="@dimen/_129sdp"
@@ -342,8 +342,8 @@
 
     <Button
         android:id="@+id/cancel_action"
-        android:layout_width="@dimen/_62sdp"
-        android:layout_height="@dimen/_29sdp"
+        android:layout_width="@dimen/_72sdp"
+        android:layout_height="@dimen/_31sdp"
 
         android:layout_marginStart="@dimen/_35sdp"
 
