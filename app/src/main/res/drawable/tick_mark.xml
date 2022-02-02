@@ -8,7 +8,7 @@
                 android:height="30dp"/>
             <stroke
                 android:width="3dip"
-                android:color="#01893E" >
+                android:color="#FFFFFF" >
             </stroke>
 
         </shape>
@@ -23,7 +23,7 @@
         <rotate
             android:fromDegrees="40">
             <shape android:shape="rectangle">
-                <solid android:color="#01893E"/>
+                <solid android:color="#FFFFFF"/>
             </shape>
         </rotate>
     </item>
@@ -38,14 +38,14 @@
         <rotate
             android:fromDegrees="-50">
             <shape android:shape="rectangle">
-                <solid android:color="#01893E"/>
+                <solid android:color="#FFFFFF"/>
             </shape>
         </rotate>
     </item>
 
     <item
-        android:width="60dp"
-        android:height="60dp">
+        android:width="70dp"
+        android:height="70dp">
         <shape android:shape="rectangle">
             <solid android:color="@android:color/transparent"/>
         </shape>

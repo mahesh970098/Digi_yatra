@@ -50,6 +50,7 @@
         android:layout_marginBottom="@dimen/_10sdp"
         android:background="@drawable/textbox_border"
         android:ems="10"
+        android:textColor="#000000"
         android:hint="   Enter Mobille Number"
         android:inputType="phone"
         android:textSize="@dimen/_7ssp"

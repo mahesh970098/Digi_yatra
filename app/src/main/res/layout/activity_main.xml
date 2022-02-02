@@ -7,19 +7,6 @@
     android:background="#ffffff"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_380sdp"
-        android:layout_marginBottom="@dimen/_110sdp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/background_blue" />
-
     <TextView
         android:id="@+id/textView19"
         android:layout_width="@dimen/_258sdp"
@@ -27,19 +14,17 @@
         android:layout_marginStart="@dimen/_12sdp"
         android:layout_marginTop="@dimen/_10sdp"
         android:layout_marginEnd="@dimen/_12sdp"
-        android:layout_marginBottom="@dimen/_100sdp"
         android:fontFamily="@font/poppins_light"
         android:text="Enjoy a Seamless, Hassle-free Digital experience at all airports in India!"
         android:textAlignment="center"
         android:textColor="#041A55"
         android:textSize="@dimen/_14sdp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.626"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.187" />
+        app:layout_constraintVertical_bias="0.025" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -47,12 +32,12 @@
         android:layout_height="@dimen/_136sdp"
         android:layout_marginStart="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_134sdp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.847"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433"
         app:srcCompat="@drawable/group_17" />
 
     <ImageView
@@ -121,9 +106,8 @@
         android:layout_height="@dimen/_35sdp"
         android:layout_centerInParent="true"
         android:layout_marginStart="@dimen/_16sdp"
-        android:layout_marginTop="@dimen/_27sdp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="@dimen/_14sdp"
-        android:layout_marginBottom="@dimen/_55sdp"
         android:fontFamily="@font/roboto_medium"
         android:text="Get Started"
         android:textAlignment="center"
@@ -132,12 +116,10 @@
         android:textStyle="bold"
 
         app:backgroundTint="#002E56"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <TextView
         android:id="@+id/textView59"

@@ -21,7 +21,7 @@ public class Camera_Profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera_profile);
 
-     this.imageView = (ImageView)this.findViewById(R.id.cameraimg1);
+     this.imageView = (ImageView)this.findViewById(R.id.profile_image);
         Intent intent = getIntent();
         Bitmap photo = (Bitmap) intent.getExtras().get("data");
         imageView.setImageBitmap(photo);
@@ -33,7 +33,7 @@ public class Camera_Profile extends AppCompatActivity {
                 Camera_Profile.this.startActivity(mainIntent);
                 Camera_Profile.this.finish();
             }
-        }, 2000);
+        }, 3000);
 
 
 

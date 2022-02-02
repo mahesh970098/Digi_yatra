@@ -6,35 +6,41 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     tools:context=".fragments.Update_your_travel">
+
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textupdate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_8sdp"
-        android:layout_marginTop="@dimen/_8sdp"
-        android:layout_marginEnd="@dimen/_125sdp"
-        android:text="Update your Travel"
-        android:textColor="#000000"
+        android:layout_marginStart="@dimen/_31sdp"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_marginEnd="@dimen/_76sdp"
+
+        android:fontFamily="@font/poppins_bold"
+        android:text="Update Your Travel"
+        android:textColor="#002E56"
         android:textSize="@dimen/_18ssp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/backBtn1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.002"
-        app:layout_constraintStart_toEndOf="@+id/backBtn1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627" />
+        app:layout_constraintVertical_bias="0.2" />
 
     <ImageButton
         android:id="@+id/backBtn1"
-        android:layout_width="@dimen/_16sdp"
-        android:layout_height="@dimen/_25sdp"
-        android:layout_marginStart="@dimen/_7sdp"
-        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_width="@dimen/_26sdp"
+        android:layout_height="@dimen/_26sdp"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:layout_marginEnd="@dimen/_189sdp"
+        android:layout_marginBottom="@dimen/_425sdp"
         android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_arrow_back" />
 
     <TextView
@@ -42,9 +48,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_31sdp"
-        android:layout_marginTop="@dimen/_31sdp"
+        android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginEnd="@dimen/_64sdp"
         android:layout_marginBottom="@dimen/_395sdp"
+        android:fontFamily="@font/poppins"
         android:text="How would you like to update your travel?"
         android:textColor="#000000"
         android:textSize="@dimen/_11ssp"
@@ -53,7 +60,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.014"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textupdate"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
@@ -117,12 +124,13 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="@dimen/_55sdp"
+        android:layout_width="@dimen/_65sdp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_12sdp"
         android:layout_marginTop="@dimen/_26sdp"
         android:layout_marginEnd="@dimen/_12sdp"
         android:layout_marginBottom="@dimen/_26sdp"
+        android:fontFamily="@font/poppins"
         android:text="Scan Boarding Pass"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -141,6 +149,7 @@
         android:layout_marginTop="@dimen/_22sdp"
         android:layout_marginEnd="@dimen/_12sdp"
         android:layout_marginBottom="@dimen/_26sdp"
+        android:fontFamily="@font/poppins"
         android:text="Upload Boarding Pass/ ETKT"
         android:textAlignment="center"
         android:textColor="#000000"
