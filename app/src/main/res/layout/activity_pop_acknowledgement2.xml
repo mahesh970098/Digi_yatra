@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/layout_curve"
-    tools:context=".fragments.Pop_acknowledgement">
+    android:background="#ffffff"
+    tools:context=".fragments.Pop_acknowledgement2">
+
+
 
     <TextView
         android:id="@+id/textView23"
@@ -83,124 +85,32 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/textView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_24sdp"
-        android:layout_marginTop="@dimen/_12sdp"
-        android:layout_marginEnd="@dimen/_150sdp"
-        android:layout_marginBottom="@dimen/_5sdp"
-        android:fontFamily="@font/roboto_medium"
-        android:text="1. Face ID"
-        android:textColor="#000000"
-        android:textSize="@dimen/_10ssp"
-        app:layout_constraintBottom_toTopOf="@+id/textView32"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28"
-        app:layout_constraintVertical_bias="0.0" />
-
-
-    <TextView
-        android:id="@+id/textView32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_24sdp"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginEnd="@dimen/_97sdp"
-        android:layout_marginBottom="@dimen/_13sdp"
-        android:fontFamily="@font/roboto_medium"
-        android:text="2. Govt photo ID Card"
-        android:textColor="#000000"
-        android:textSize="@dimen/_10sdp"
-        app:layout_constraintBottom_toTopOf="@+id/textView37"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_24sdp"
-        android:layout_marginTop="@dimen/_58sdp"
-        android:layout_marginEnd="@dimen/_92ssp"
-        android:fontFamily="@font/roboto_medium"
-        android:text="Your data is safe and in your control."
-        android:textColor="#000000"
-        android:textSize="@dimen/_10ssp"
-        app:layout_constraintBottom_toTopOf="@+id/cancel_action"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28"
-        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_37sdp"
-        android:layout_marginTop="@dimen/_30sdp"
-        android:layout_marginEnd="@dimen/_107sdp"
+        android:layout_marginTop="@dimen/_87sdp"
+        android:layout_marginEnd="@dimen/_57sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+
         android:fontFamily="@font/roboto_medium"
         android:text="I Acknowledge"
-
         android:textColor="#555555"
         android:textSize="@dimen/_10ssp"
         app:layout_constraintBottom_toTopOf="@+id/cancel_action"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView37"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/_66sdp"
-        android:fontFamily="@font/poppins"
-        android:text="Learn More "
-        android:textColor="#002E56"
-
-        android:textSize="@dimen/_10ssp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView37"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView37"
-        app:layout_constraintTop_toTopOf="@+id/textView37"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView60"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_24sdp"
-        android:layout_marginTop="@dimen/_8sdp"
-        android:layout_marginEnd="@dimen/_92ssp"
-        android:layout_marginBottom="@dimen/_10sdp"
-        android:fontFamily="@font/roboto_medium"
-        android:text=" Do we have your consent?"
-
-        android:textColor="#000000"
-        android:textSize="@dimen/_10sdp"
-        app:layout_constraintBottom_toTopOf="@+id/textView25"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView37"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:layout_constraintVertical_bias="0.858" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="@dimen/_20sdp"
         android:layout_height="@dimen/_20sdp"
-        android:layout_marginStart="@dimen/_32sdp"
+        android:layout_marginStart="@dimen/_24sdp"
         android:layout_marginEnd="10dp"
         android:background="@drawable/white_backgroound_radius"
         android:backgroundTint="#ffffff"

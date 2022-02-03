@@ -175,18 +175,19 @@
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="@dimen/_271sdp"
-        android:layout_height="@dimen/_415sdp"
-        android:layout_marginStart="@dimen/_11sdp"
+        android:layout_height="@dimen/_370sdp"
+        android:layout_marginStart="@dimen/_10sdp"
         android:layout_marginTop="@dimen/_60sdp"
         android:layout_marginEnd="@dimen/_14sdp"
         android:layout_marginBottom="@dimen/_65sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/wavesignup2" />
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="@dimen/_115sdp"
@@ -413,6 +414,8 @@
         android:textAlignment="center"
         android:textSize="@dimen/_9ssp"
         app:backgroundTint="#002E56"
+
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="@+id/imageView17"
         app:layout_constraintHorizontal_bias="0.666"

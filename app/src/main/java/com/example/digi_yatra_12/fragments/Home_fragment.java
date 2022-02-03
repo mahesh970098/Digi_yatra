@@ -20,8 +20,6 @@ import androidx.fragment.app.FragmentTransaction;
 import com.example.digi_yatra_12.MainActivity;
 import com.example.digi_yatra_12.R;
 
-import com.example.digi_yatra_12.databinding.FragmentHomeFragmentBinding;
-import com.example.digi_yatra_12.databinding.FragmentWalletFragmentBinding;
 import com.example.digi_yatra_12.signup.Signup;
 import com.smarteist.autoimageslider.SliderView;
 
@@ -30,8 +28,9 @@ import java.util.ArrayList;
 public class Home_fragment extends Fragment {
 //    FragmentHomeFragmentBinding binding;
 
-    ImageButton add;
+    ImageButton add ,popup;
     Layout add1;
+
     Wallet_fragment firstfragment;
 
 
@@ -111,6 +110,15 @@ public class Home_fragment extends Fragment {
             add.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
                     intent = new Intent(getActivity(), Update_your_travel.class);
+                    startActivity(intent);
+                }
+            });
+
+            popup=(ImageButton) view.findViewById(R.id.dotBTN);
+            popup.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    intent =new Intent(getActivity(),Pop_Share_home.class);
                     startActivity(intent);
                 }
             });

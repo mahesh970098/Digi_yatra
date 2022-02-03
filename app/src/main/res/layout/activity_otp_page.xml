@@ -116,24 +116,23 @@
 
     <ImageView
         android:id="@+id/imageView30"
-        android:layout_width="@dimen/_24sdp"
-        android:layout_height="@dimen/_24sdp"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
         android:layout_marginStart="@dimen/_10sdp"
         android:layout_marginTop="@dimen/_5sdp"
         android:layout_marginEnd="@dimen/_110sdp"
-        android:layout_marginBottom="@dimen/_22sdp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        android:layout_marginBottom="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/orange_round_edit" />
 
     <ImageButton
         android:id="@+id/imageButton10"
-        android:layout_width="@dimen/_16sdp"
-        android:layout_height="@dimen/_19sdp"
+        android:layout_width="@dimen/_14sdp"
+        android:layout_height="@dimen/_14sdp"
         android:background="#F8971D"
         app:layout_constraintBottom_toBottomOf="@+id/imageView30"
         app:layout_constraintEnd_toEndOf="@+id/imageView30"

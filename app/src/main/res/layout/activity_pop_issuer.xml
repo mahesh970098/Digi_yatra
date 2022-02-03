@@ -28,11 +28,11 @@
 
     <ImageButton
         android:id="@+id/popisuerBtn"
-        android:layout_width="@dimen/_220sdp"
+        android:layout_width="@dimen/_240sdp"
         android:layout_height="@dimen/_52sdp"
-        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_31sdp"
         android:layout_marginTop="@dimen/_56sdp"
-        android:layout_marginEnd="@dimen/_26sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
         android:layout_marginBottom="@dimen/_170sdp"
         android:background="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
