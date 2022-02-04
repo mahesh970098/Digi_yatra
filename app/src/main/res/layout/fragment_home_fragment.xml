@@ -261,7 +261,7 @@
 
     <Button
         android:id="@+id/ShareBtn"
-        android:layout_width="@dimen/_60sdp"
+        android:layout_width="@dimen/_50sdp"
         android:layout_height="@dimen/_28sdp"
         android:layout_marginStart="@dimen/_136sdp"
         android:layout_marginTop="@dimen/_54sdp"
@@ -269,7 +269,7 @@
         android:layout_marginBottom="@dimen/_12sdp"
         android:backgroundTint="#002E56"
         android:text="Share"
-        android:textSize="@dimen/_8ssp"
+        android:textSize="@dimen/_6ssp"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="@+id/dotBTN"
         app:layout_constraintEnd_toEndOf="@+id/dotBTN"

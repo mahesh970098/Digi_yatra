@@ -67,10 +67,11 @@ Button home;
 
 
                     LayoutInflater inflater =getLayoutInflater();
-                    View layout =inflater.inflate(R.layout.custom_toast,(ViewGroup) findViewById(R.id.toast_layout));
+                    View layout =inflater.inflate(R.layout.activity_toast_layout,(ViewGroup) findViewById(R.id.toast_message));
                     final Toast toast = new Toast(getApplicationContext());
                     toast.setGravity(Gravity.CENTER_VERTICAL,0,0);
-                    toast.setDuration(Toast.LENGTH_LONG);
+
+                    toast.setDuration(Toast.LENGTH_LONG );
                     toast.setView(layout);
                     toast.show();
 

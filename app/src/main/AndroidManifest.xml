@@ -13,6 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Digi_Yatra_12">
         <activity
+            android:name=".fragments.Toast_layout"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.CustomTheme"/>
+        <activity
             android:name=".fragments.Pop_acknowledgement2"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.CustomTheme" />
