@@ -38,6 +38,7 @@
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/layout_curve.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/orange_round_edit.xml" value="0.18020833333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/rectangle_3935.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/rectangle_3936.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/rounded_profile.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/textbox_border.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/tick_mark.xml" value="0.159375" />
@@ -47,17 +48,17 @@
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/white_backgroound_radius.xml" value="0.12552083333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/drawable/white_background.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/font/poppins.xml" value="0.19427083333333334" />
-        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_add_data_url.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_add_data_url.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_alomst_done.xml" value="0.22" />
-        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_camera_profile.xml" value="0.4466666666666667" />
-        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_camera_profile2.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_camera_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_camera_profile2.xml" value="0.5" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_credential_choose.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_credentital_details.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_id_wallet.xml" value="0.22" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_main2.xml" value="0.1796875" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_navbar_main.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_otp_page.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_otp_page.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_pop_acknowledgement.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_pop_acknowledgement2.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_pop_crediential.xml" value="0.1796875" />
@@ -65,10 +66,11 @@
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_pop_share_home.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_pop_sucess_register.xml" value="0.14322916666666666" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_retrieved_addheerdata.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_scan_bording_pass.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_signup.xml" value="0.3619489559164733" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_scan_bording_pass.xml" value="0.22" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_signup.xml" value="0.22" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_sucessufully_reg2.xml" value="0.22" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/activity_update_your_travel.xml" value="0.22" />
+        <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/custom_toast.xml" value="0.3367088607594937" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/fragment_extra.xml" value="0.1796875" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/fragment_extra_fragment.xml" value="0.1796875" />
         <entry key="..\:/Users/Master/AndroidStudioProjects/Digi_Yatra_12/app/src/main/res/layout/fragment_home_fragment.xml" value="0.2454728370221328" />

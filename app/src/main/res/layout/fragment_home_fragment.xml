@@ -206,7 +206,7 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="@dimen/_21sdp"
         android:layout_height="@dimen/_21sdp"
-        android:layout_marginStart="@dimen/_109sdp"
+        android:layout_marginStart="@dimen/_119sdp"
         android:layout_marginTop="@dimen/_17sdp"
         android:layout_marginEnd="@dimen/_19sdp"
         android:layout_marginBottom="@dimen/_6sdp"
@@ -258,6 +258,25 @@
         app:layout_constraintEnd_toEndOf="@+id/dotBTN"
         app:layout_constraintStart_toStartOf="@+id/dotBTN"
         app:layout_constraintTop_toTopOf="@+id/dotBTN" />
+
+    <Button
+        android:id="@+id/ShareBtn"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_marginStart="@dimen/_136sdp"
+        android:layout_marginTop="@dimen/_54sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:backgroundTint="#002E56"
+        android:text="Share"
+        android:textSize="@dimen/_8ssp"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="@+id/dotBTN"
+        app:layout_constraintEnd_toEndOf="@+id/dotBTN"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/dotBTN"
+        app:layout_constraintTop_toTopOf="@+id/dotBTN"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/imageButton15"

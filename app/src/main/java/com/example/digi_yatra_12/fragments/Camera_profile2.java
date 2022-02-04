@@ -7,6 +7,7 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.example.digi_yatra_12.R;
@@ -39,7 +40,14 @@ public class Camera_profile2 extends AppCompatActivity {
 
 
 
+        ImageButton ib = (ImageButton)findViewById(R.id.backBtn1);
+        ib.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
 
     }

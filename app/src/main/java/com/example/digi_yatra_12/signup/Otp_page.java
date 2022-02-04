@@ -6,7 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
@@ -60,10 +63,23 @@ Button home;
 
 
                 if(!inputNumber1.getText().toString().trim().isEmpty()&&!inputNumber2.getText().toString().trim().isEmpty()&&!inputNumber3.getText().toString().trim().isEmpty()&&!inputNumber4.getText().toString().trim().isEmpty()){
-                    Toast.makeText(Otp_page.this,"otp verify",Toast.LENGTH_SHORT ).show();
+
+
+
+                    LayoutInflater inflater =getLayoutInflater();
+                    View layout =inflater.inflate(R.layout.custom_toast,(ViewGroup) findViewById(R.id.toast_layout));
+                    final Toast toast = new Toast(getApplicationContext());
+                    toast.setGravity(Gravity.CENTER_VERTICAL,0,0);
+                    toast.setDuration(Toast.LENGTH_LONG);
+                    toast.setView(layout);
+                    toast.show();
+
+//                    Toast.makeText(Otp_page.this,"otp verify",Toast.LENGTH_SHORT ).show();
 
                     Intent intent = new Intent(getApplicationContext(), Navbar_main.class);
                     startActivity(intent);
+
+
 
                     String entercodeotp = inputNumber1.getText().toString()+
                             inputNumber2.getText().toString()+
@@ -80,6 +96,7 @@ Button home;
 //                }else{
 //                    Toast.makeText(Password_otp.this,"no"Tost.)
 //                }
+
 
                 }else {
                     Toast.makeText(Otp_page.this,"Enter OTP",Toast.LENGTH_SHORT).show();

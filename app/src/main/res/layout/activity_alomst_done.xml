@@ -7,6 +7,23 @@
     android:background="#ffffff"
     tools:context=".fragments.Alomst_done">
 
+    <ImageButton
+        android:id="@+id/backBtn1"
+        android:layout_width="@dimen/_26sdp"
+        android:layout_height="@dimen/_26sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_19sdp"
+        android:layout_marginEnd="@dimen/_189sdp"
+        android:layout_marginBottom="@dimen/_425sdp"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_arrow_back" />
+
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
@@ -25,24 +42,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
-    <ImageButton
-        android:id="@+id/backBtn1"
-        android:layout_width="@dimen/_26sdp"
-        android:layout_height="@dimen/_26sdp"
-        android:layout_marginStart="@dimen/_6sdp"
-        android:layout_marginTop="@dimen/_17sdp"
-        android:layout_marginEnd="@dimen/_189sdp"
-        android:layout_marginBottom="@dimen/_425sdp"
-        android:background="#ffffff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_arrow_back" />
-
-
 
 
     <TextView
@@ -130,7 +129,7 @@
         android:id="@+id/imageView32"
         android:layout_width="@dimen/_10sdp"
         android:layout_height="@dimen/_10sdp"
-        android:layout_marginStart="@dimen/_44sdp"
+        android:layout_marginStart="@dimen/_54sdp"
         android:layout_marginTop="@dimen/_20sdp"
         android:layout_marginEnd="@dimen/_52sdp"
         app:layout_constraintBottom_toTopOf="@+id/imageView17"
@@ -165,7 +164,6 @@
         android:layout_marginEnd="@dimen/_40sdp"
         app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         app:layout_constraintVertical_bias="0.0"
@@ -226,7 +224,7 @@
         android:id="@+id/imageView17"
         android:layout_width="@dimen/_271sdp"
         android:layout_height="@dimen/_370sdp"
-        android:layout_marginStart="@dimen/_11sdp"
+        android:layout_marginStart="@dimen/_10sdp"
         android:layout_marginTop="@dimen/_60sdp"
         android:layout_marginEnd="@dimen/_14sdp"
         android:layout_marginBottom="@dimen/_65sdp"
@@ -234,7 +232,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.16000003"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/wavesignup2" />
 
     <TextView

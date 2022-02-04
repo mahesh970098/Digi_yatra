@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.digi_yatra_12.R;
@@ -93,7 +94,14 @@ public class Scan_bording_pass extends AppCompatActivity {
 
 
 
+        ImageButton ib = (ImageButton)findViewById(R.id.backBtn1);
+        ib.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
 }

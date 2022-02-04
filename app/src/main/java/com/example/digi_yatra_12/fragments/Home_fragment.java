@@ -3,6 +3,7 @@ package com.example.digi_yatra_12.fragments;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Layout;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageSwitcher;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -28,7 +30,8 @@ import java.util.ArrayList;
 public class Home_fragment extends Fragment {
 //    FragmentHomeFragmentBinding binding;
 
-    ImageButton add ,popup;
+    ImageButton add ;
+    Button popup;
     Layout add1;
 
     Wallet_fragment firstfragment;
@@ -37,6 +40,7 @@ public class Home_fragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
     }
 
     ImageSwitcher imageslider;
@@ -59,6 +63,7 @@ public class Home_fragment extends Fragment {
 //                startActivity(intent);
 //            }
 //        });
+
 
 
             View rootView = inflater.inflate(R.layout.fragment_home_fragment, container, false);
@@ -114,7 +119,7 @@ public class Home_fragment extends Fragment {
                 }
             });
 
-            popup=(ImageButton) view.findViewById(R.id.dotBTN);
+            popup=(Button) view.findViewById(R.id.ShareBtn);
             popup.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

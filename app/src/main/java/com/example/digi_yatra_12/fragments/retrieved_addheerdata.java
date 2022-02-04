@@ -25,5 +25,13 @@ public class retrieved_addheerdata extends AppCompatActivity {
 
             }
         });
+        ImageButton ib = (ImageButton)findViewById(R.id.backBtn1);
+        ib.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 }

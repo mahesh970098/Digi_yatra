@@ -17,7 +17,7 @@
         android:layout_marginStart="@dimen/_18sdp"
         android:layout_marginTop="@dimen/_11sdp"
         android:layout_marginEnd="@dimen/_18sdp"
-        android:layout_marginBottom="@dimen/_153sdp"
+        android:layout_marginBottom="@dimen/_133sdp"
         android:text="add your credential"
         android:textAlignment="center"
         android:textColor="#ffffff"

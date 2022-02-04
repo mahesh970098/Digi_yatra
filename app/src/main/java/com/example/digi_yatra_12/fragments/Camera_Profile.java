@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.example.digi_yatra_12.R;
@@ -33,10 +35,17 @@ public class Camera_Profile extends AppCompatActivity {
                 Camera_Profile.this.startActivity(mainIntent);
                 Camera_Profile.this.finish();
             }
-        }, 3000);
+        }, 6000);
 
 
+        ImageButton ib = (ImageButton)findViewById(R.id.backBtn1);
+        ib.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
 
     }

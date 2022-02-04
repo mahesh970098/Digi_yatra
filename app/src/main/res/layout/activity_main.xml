@@ -7,6 +7,22 @@
     android:background="#ffffff"
     tools:context=".MainActivity">
 
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_218sdp"
+
+        android:background="@drawable/rectangle_3936"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
     <TextView
         android:id="@+id/textView19"
         android:layout_width="@dimen/_258sdp"
@@ -45,7 +61,7 @@
         android:layout_width="@dimen/_64sdp"
         android:layout_height="@dimen/_27sdp"
         android:layout_marginStart="@dimen/_80sdp"
-        android:layout_marginTop="@dimen/_120sdp"
+        android:layout_marginTop="@dimen/_100sdp"
         android:layout_marginEnd="@dimen/_82sdp"
         android:layout_marginBottom="@dimen/_20sdp"
 
@@ -54,7 +70,7 @@
         app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/GetstartedBtn"
-        app:layout_constraintVertical_bias="0.95"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/group_1629__5_" />
 
     <ImageView
@@ -102,24 +118,27 @@
 
     <Button
         android:id="@+id/GetstartedBtn"
-        android:layout_width="@dimen/_184sdp"
+        android:layout_width="@dimen/_244sdp"
         android:layout_height="@dimen/_35sdp"
         android:layout_centerInParent="true"
         android:layout_marginStart="@dimen/_16sdp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/_12sdp"
         android:layout_marginEnd="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_143sdp"
         android:fontFamily="@font/roboto_medium"
         android:text="Get Started"
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="@dimen/_8ssp"
-        android:textStyle="bold"
 
+        android:textStyle="bold"
         app:backgroundTint="#002E56"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.069" />
 
     <TextView
         android:id="@+id/textView59"

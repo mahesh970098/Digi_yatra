@@ -3,6 +3,8 @@ package com.example.digi_yatra_12.signup;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.ColorSpace;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -42,6 +44,11 @@ public class Signup extends AppCompatActivity {
 
                 if (!enternumber.getText().toString().trim().isEmpty()) {
                     if ((enternumber.getText().toString().trim().length() == 10)) {
+
+//                        otpbtn.setBackgroundColor(Color.GREEN);
+
+
+
                         Intent intent =new Intent(Signup.this, Otp_page.class);
                         intent.putExtra("mobile", enternumber.getText().toString());
                         startActivity(intent);

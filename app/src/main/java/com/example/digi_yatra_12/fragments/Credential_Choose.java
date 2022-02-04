@@ -36,6 +36,16 @@ public class Credential_Choose extends AppCompatActivity {
             popup.setBackgroundColor(Color.BLACK);
 
         }
+
+
+        ImageButton ib = (ImageButton)findViewById(R.id.backBtn1);
+        ib.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 //        Intent i = new Intent(Credential_Choose.this, Pop_issuer.class);
 //        startActivity(i);
 
