@@ -1,10 +1,6 @@
 package com.example.digi_yatra_12.fragments;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Layout;
 import android.view.LayoutInflater;
@@ -16,7 +12,6 @@ import android.widget.ImageSwitcher;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
 import com.example.digi_yatra_12.R;
@@ -52,12 +47,12 @@ public class Home_fragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate( R.layout.fragment_home_fragment, container, false );
 
-        SharedPreferences prefs = getActivity().getSharedPreferences( "prefs", Context.MODE_PRIVATE );
-        boolean firstStart = prefs.getBoolean( "firstStart", true );
-
-        if (firstStart) {
-            showStartDialog();
-        }
+//        SharedPreferences prefs = getActivity().getSharedPreferences( "prefs", Context.MODE_PRIVATE );
+//        boolean firstStart = prefs.getBoolean( "firstStart", true );
+//
+//        if (firstStart) {
+//            showStartDialog();
+//        }
 
 
 //        intent = new Intent(getActivity(), popup_Addheer.class);
@@ -136,41 +131,40 @@ public class Home_fragment extends Fragment {
     //dailoug box
 
 
-    @SuppressLint("ResourceType")
-    private void showStartDialog() {
-
-        final AlertDialog.Builder builder;
-
-        builder = new AlertDialog.Builder( getParentFragment().getActivity() );
-//        builder .setTitle("one time Dialoug");
-//              builder  .setMessage("hello");
-        builder.setView( R.layout.activity_pop_sucess_register
-        );
-
-        builder.setPositiveButton( R.id.OkBtn2, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.dismiss();
-
-            }
-        } )
-
-
-//    builder.setView( R.id.OkBtn2 );
-
-//               builder .setPositiveButton("OKBTN", new DialogInterface.OnClickListener() {
-//                    @Override
-//                    public void onClick(DialogInterface  dialogInterface, int which) {
-//                        dialogInterface.dismiss();
-//                    }
-//                })
-                .create().show();
-        SharedPreferences prefs = getActivity().getSharedPreferences( "prefs", Context.MODE_PRIVATE );
-        SharedPreferences.Editor editor =prefs.edit();
-        editor.putBoolean( "firstStart",true );
-        editor.apply();
-
-    }
+//    @SuppressLint("ResourceType")
+//    private void showStartDialog() {
+//
+//        final AlertDialog.Builder builder;
+//
+//        builder = new AlertDialog.Builder( getParentFragment().getActivity() );
+////        builder .setTitle("one time Dialoug");
+////              builder  .setMessage("hello");
+//        builder.setView( R.layout.activity_pop_sucess_register
+//        );
+//
+////        builder.setPositiveButton( R.id.OkBtn2, new DialogInterface.OnClickListener() {
+////            @Override
+////            public void onClick(DialogInterface dialogInterface, int i) {
+////                dialogInterface.dismiss();
+////
+////            }
+////        } )
+//
+////    builder.setView( R.id.OkBtn2 );
+//
+////               builder .setPositiveButton("OKBTN", new DialogInterface.OnClickListener() {
+////                    @Override
+////                    public void onClick(DialogInterface  dialogInterface, int which) {
+////                        dialogInterface.dismiss();
+////                    }
+////                })
+//             builder.show();
+////        SharedPreferences prefs = getActivity().getSharedPreferences( "prefs", Context.MODE_PRIVATE );
+////        SharedPreferences.Editor editor =prefs.edit();
+////        editor.putBoolean( "firstStart",true );
+////        editor.apply();
+//
+//    }
 }
 
 

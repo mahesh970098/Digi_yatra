@@ -1,14 +1,13 @@
 package com.example.digi_yatra_12.fragments;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.digi_yatra_12.R;
 import com.example.digi_yatra_12.navbar.Navbar_main;
@@ -24,7 +23,7 @@ public class Camera_profile2 extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent(Camera_profile2.this, Id_wallet.class);
+                Intent intent =new Intent(Camera_profile2.this, Navbar_main.class);
                 startActivity(intent);
             }
         });

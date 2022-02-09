@@ -21,6 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
@@ -33,17 +34,17 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.25"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints">
 
         <EditText
             android:id="@+id/inputCode1"
-            android:layout_width="@dimen/_40sdp"
+            android:layout_width="@dimen/_30sdp"
             android:layout_height="@dimen/_47sdp"
-            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_9sdp"
             android:background="@drawable/textbox_border"
             android:gravity="center"
             android:imeOptions="actionNext"
@@ -58,9 +59,9 @@
 
         <EditText
             android:id="@+id/inputCode2"
-            android:layout_width="@dimen/_40sdp"
+            android:layout_width="@dimen/_30sdp"
             android:layout_height="@dimen/_47sdp"
-            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_9sdp"
             android:background="@drawable/textbox_border"
             android:gravity="center"
             android:imeOptions="actionNext"
@@ -74,9 +75,10 @@
 
         <EditText
             android:id="@+id/inputCode3"
-            android:layout_width="@dimen/_40sdp"
-            android:layout_height="@dimen/_47sdp"
-            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/_9sdp"
+            android:layout_weight="1"
             android:background="@drawable/textbox_border"
             android:gravity="center"
             android:imeOptions="actionNext"
@@ -90,9 +92,42 @@
 
         <EditText
             android:id="@+id/inputCode4"
-            android:layout_width="@dimen/_40sdp"
+            android:layout_width="@dimen/_30sdp"
             android:layout_height="@dimen/_47sdp"
-            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_9sdp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold"
+            tools:igonre="LabelFor" />
+
+        <EditText
+            android:id="@+id/inputCode5"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_47sdp"
+            android:layout_marginRight="@dimen/_9sdp"
+            android:background="@drawable/textbox_border"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold"
+            tools:igonre="LabelFor" />
+
+        <EditText
+            android:id="@+id/inputCode6"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_47sdp"
+            android:layout_marginRight="@dimen/_9sdp"
             android:background="@drawable/textbox_border"
             android:gravity="center"
             android:imeOptions="actionNext"
@@ -251,7 +286,8 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:clickable="true"
+        android:id="@+id/resendotp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_5sdp"

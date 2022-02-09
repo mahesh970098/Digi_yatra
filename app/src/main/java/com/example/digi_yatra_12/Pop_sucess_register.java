@@ -1,7 +1,5 @@
 package com.example.digi_yatra_12;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
@@ -9,7 +7,10 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.digi_yatra_12.navbar.Navbar_main;
 
 public class Pop_sucess_register extends AppCompatActivity {
     Button popup;
@@ -30,6 +31,16 @@ public class Pop_sucess_register extends AppCompatActivity {
         params.y = 100;
 
         getWindow().setAttributes(params);
+
+
+        Button i =(Button) findViewById( R.id.OkBtn2 );
+        i.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in =new Intent(Pop_sucess_register.this, Navbar_main.class );
+                startActivity( in );
+            }
+        } );
 
 
     }

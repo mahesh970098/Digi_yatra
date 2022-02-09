@@ -136,13 +136,16 @@
         android:id="@+id/imageBtn"
         android:layout_width="@dimen/_24sdp"
         android:layout_height="@dimen/_27sdp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
         android:background="#EBF3FC"
         app:layout_constraintBottom_toBottomOf="@+id/UrlBtn"
-        app:layout_constraintEnd_toEndOf="@+id/imageView9"
-        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintEnd_toEndOf="@+id/UrlBtn"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/UrlBtn"
+        app:layout_constraintTop_toTopOf="@+id/UrlBtn"
+        app:layout_constraintVertical_bias="0.25"
         app:srcCompat="@drawable/group_7521" />
 
     <TextView

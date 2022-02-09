@@ -35,6 +35,7 @@ import java.nio.charset.StandardCharsets;
 public class Navbar_main extends AppCompatActivity {
     ToolTipsManager toolTipsManager;
     private View walletButton;
+    private View homeButton;
     private ConstraintLayout constraintLayout, semiTransparent;
     private BottomNavigationView bottomNavigationView;
 
@@ -74,6 +75,11 @@ public class Navbar_main extends AppCompatActivity {
                             return true;
                         }
                     });
+
+
+
+
+
                 }
 
                 //check profile created or not
@@ -198,15 +204,19 @@ public class Navbar_main extends AppCompatActivity {
             @Override
             public void run() {
                 toolTipsManager.findAndDismiss(walletButton);
-                ToolTip.Builder builder=new ToolTip.Builder(Navbar_main.this,walletButton,constraintLayout,"Click here to get started",ToolTip.POSITION_ABOVE);
-                builder.setAlign(ToolTip.ALIGN_CENTER);
+                ToolTip.Builder builder=new ToolTip.Builder(Navbar_main.this,walletButton,constraintLayout,"Click here to get started to create your ID's",ToolTip.POSITION_ABOVE);
+                builder.setAlign(ToolTip.ALIGN_RIGHT);
                 builder.setBackgroundColor( Color.BLUE);
                 toolTipsManager.show(builder.build());
             }
         },100);
     }
 
-}
+
+
+    }
+
+
 
 
 

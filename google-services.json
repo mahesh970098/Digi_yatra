@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "885862392980",
+    "project_id": "otpverification-45da8",
+    "storage_bucket": "otpverification-45da8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885862392980:android:7281cf7268977fbdcb8081",
+        "android_client_info": {
+          "package_name": "com.example.digi_yatra_12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885862392980-ck9opbfdaohgdggjfqpigk5hjoc3auup.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digi_yatra_12",
+            "certificate_hash": "a8a0723d365d2acc40241718a96438a33fbceb81"
+          }
+        },
+        {
+          "client_id": "885862392980-0q52u23b0r54pr6o68jjldlmcean8cp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgqedoj4ZBVmIObcDpC_RVNPUS8ypfxXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885862392980-0q52u23b0r54pr6o68jjldlmcean8cp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

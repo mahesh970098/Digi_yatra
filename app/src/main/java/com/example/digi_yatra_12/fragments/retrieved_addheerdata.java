@@ -92,7 +92,7 @@ public class retrieved_addheerdata extends AppCompatActivity {
         popup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(retrieved_addheerdata    .this, Alomst_done.class);
+                Intent i = new Intent(retrieved_addheerdata.this, Alomst_done.class);
                 i.putExtra("aadharData", aadharData);
                 startActivity(i);
             }
