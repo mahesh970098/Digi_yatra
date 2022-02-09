@@ -1,28 +1,25 @@
 package com.example.digi_yatra_12.fragments;
 
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Layout;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageSwitcher;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
-import com.example.digi_yatra_12.MainActivity;
 import com.example.digi_yatra_12.R;
-
-import com.example.digi_yatra_12.signup.Signup;
 import com.smarteist.autoimageslider.SliderView;
 
 import java.util.ArrayList;
@@ -30,7 +27,7 @@ import java.util.ArrayList;
 public class Home_fragment extends Fragment {
 //    FragmentHomeFragmentBinding binding;
 
-    ImageButton add ;
+    ImageButton add;
     Button popup;
     Layout add1;
 
@@ -39,7 +36,7 @@ public class Home_fragment extends Fragment {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate( savedInstanceState );
 
     }
 
@@ -53,9 +50,16 @@ public class Home_fragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_home_fragment, container, false);
+        View view = inflater.inflate( R.layout.fragment_home_fragment, container, false );
 
-//
+        SharedPreferences prefs = getActivity().getSharedPreferences( "prefs", Context.MODE_PRIVATE );
+        boolean firstStart = prefs.getBoolean( "firstStart", true );
+
+        if (firstStart) {
+            showStartDialog();
+        }
+
+
 //        intent = new Intent(getActivity(), popup_Addheer.class);
 //        ImageButton button = (ImageButton) rootView.findViewById(R.id.upadateBtn);
 //        button.setOnClickListener(new View.OnClickListener() {
@@ -65,71 +69,112 @@ public class Home_fragment extends Fragment {
 //        });
 
 
-
-            View rootView = inflater.inflate(R.layout.fragment_home_fragment, container, false);
-            intent = new Intent(getActivity(), Pop_acknowledgement.class);
+        View rootView = inflater.inflate( R.layout.fragment_home_fragment, container, false );
+        intent = new Intent( getActivity(), Pop_acknowledgement.class );
 
 // we are creating array list for storing our image urls.
-            ArrayList<SliderData> sliderDataArrayList = new ArrayList<>();
+        ArrayList<SliderData> sliderDataArrayList = new ArrayList<>();
 
-            // initializing the slider view.
-            SliderView sliderView = rootView.findViewById(R.id.slider);
+        // initializing the slider view.
+        SliderView sliderView = rootView.findViewById( R.id.slider );
 
-            // adding the urls inside array list
-            sliderDataArrayList.add(new SliderData(url1));
-            sliderDataArrayList.add(new SliderData(url2));
-            sliderDataArrayList.add(new SliderData(url3));
+        // adding the urls inside array list
+        sliderDataArrayList.add( new SliderData( url1 ) );
+        sliderDataArrayList.add( new SliderData( url2 ) );
+        sliderDataArrayList.add( new SliderData( url3 ) );
 
-            // passing this array list inside our adapter class.
-            SliderAdapter adapter = new SliderAdapter(Home_fragment.this, sliderDataArrayList);
+        // passing this array list inside our adapter class.
+        SliderAdapter adapter = new SliderAdapter( Home_fragment.this, sliderDataArrayList );
 
-            // below method is used to set auto cycle direction in left to
-            // right direction you can change according to requirement.
-            sliderView.setAutoCycleDirection(SliderView.LAYOUT_DIRECTION_LTR);
+        // below method is used to set auto cycle direction in left to
+        // right direction you can change according to requirement.
+        sliderView.setAutoCycleDirection( SliderView.LAYOUT_DIRECTION_LTR );
 
-            // below method is used to
-            // setadapter to sliderview.
-            sliderView.setSliderAdapter(adapter);
+        // below method is used to
+        // setadapter to sliderview.
+        sliderView.setSliderAdapter( adapter );
 
-            // below method is use to set
-            // scroll time in seconds.
-            sliderView.setScrollTimeInSec(3);
+        // below method is use to set
+        // scroll time in seconds.
+        sliderView.setScrollTimeInSec( 3 );
 
-            // to set it scrollable automatically
-            // we use below method.
-            sliderView.setAutoCycle(true);
+        // to set it scrollable automatically
+        // we use below method.
+        sliderView.setAutoCycle( true );
 
-            // to start autocycle below method is used.
-            sliderView.startAutoCycle();
+        // to start autocycle below method is used.
+        sliderView.startAutoCycle();
 
-            return rootView;
-        }
-
-
-        public void onViewCreated(View view,  Bundle savedInstanceState) {
-            super.onViewCreated(view, savedInstanceState);
+        return rootView;
+    }
 
 
-            add=(ImageButton) view.findViewById(R.id.imageButton15);
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated( view, savedInstanceState );
 
-            add.setOnClickListener(new View.OnClickListener() {
-                public void onClick(View v) {
-                    intent = new Intent(getActivity(), Update_your_travel.class);
-                    startActivity(intent);
-                }
-            });
 
-            popup=(Button) view.findViewById(R.id.ShareBtn);
-            popup.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    intent =new Intent(getActivity(),Pop_Share_home.class);
-                    startActivity(intent);
-                }
-            });
+        add = (ImageButton) view.findViewById( R.id.imageButton15 );
 
-        }
+        add.setOnClickListener( new View.OnClickListener() {
+            public void onClick(View v) {
+                intent = new Intent( getActivity(), Update_your_travel.class );
+                startActivity( intent );
+            }
+        } );
+
+        popup = (Button) view.findViewById( R.id.ShareBtn );
+        popup.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent( getActivity(), Pop_Share_home.class );
+                startActivity( intent );
+            }
+        } );
 
     }
+
+    //dailoug box
+
+
+    @SuppressLint("ResourceType")
+    private void showStartDialog() {
+
+        final AlertDialog.Builder builder;
+
+        builder = new AlertDialog.Builder( getParentFragment().getActivity() );
+//        builder .setTitle("one time Dialoug");
+//              builder  .setMessage("hello");
+        builder.setView( R.layout.activity_pop_sucess_register
+        );
+
+        builder.setPositiveButton( R.id.OkBtn2, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+
+            }
+        } )
+
+
+//    builder.setView( R.id.OkBtn2 );
+
+//               builder .setPositiveButton("OKBTN", new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface  dialogInterface, int which) {
+//                        dialogInterface.dismiss();
+//                    }
+//                })
+                .create().show();
+        SharedPreferences prefs = getActivity().getSharedPreferences( "prefs", Context.MODE_PRIVATE );
+        SharedPreferences.Editor editor =prefs.edit();
+        editor.putBoolean( "firstStart",true );
+        editor.apply();
+
+    }
+}
+
+
+
+
 
 

@@ -12,7 +12,7 @@
         android:layout_width="@dimen/_26sdp"
         android:layout_height="@dimen/_26sdp"
         android:layout_marginStart="@dimen/_12sdp"
-        android:layout_marginTop="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_18sdp"
         android:layout_marginEnd="@dimen/_189sdp"
         android:layout_marginBottom="@dimen/_425sdp"
         android:background="#ffffff"
@@ -53,7 +53,7 @@
         android:fontFamily="@font/poppins_bold"
         android:text="Aadaar card"
         android:textColor="#333333"
-        android:textSize="@dimen/_8ssp"
+        android:textSize="@dimen/_7ssp"
         app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="@+id/imageView32"
         app:layout_constraintStart_toStartOf="@+id/imageView32"
@@ -70,7 +70,7 @@
         android:fontFamily="@font/poppins_bold"
         android:text="Set up Face ID"
         android:textColor="#333333"
-        android:textSize="@dimen/_8ssp"
+        android:textSize="@dimen/_7ssp"
         app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="@+id/imageView33"
         app:layout_constraintHorizontal_bias="0.495"
@@ -88,7 +88,7 @@
         android:fontFamily="@font/poppins_bold"
         android:text="Review"
         android:textColor="#333333"
-        android:textSize="@dimen/_8ssp"
+        android:textSize="@dimen/_7ssp"
         app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="@+id/imageView34"
         app:layout_constraintStart_toStartOf="@+id/imageView34"
@@ -187,7 +187,7 @@
         app:srcCompat="@drawable/wavesignup2" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/img_aadhar"
         android:layout_width="@dimen/_115sdp"
         android:layout_height="@dimen/_114sdp"
 
@@ -208,10 +208,10 @@
         android:layout_width="@dimen/_29sdp"
         android:layout_height="@dimen/_29sdp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/img_aadhar"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="@+id/img_aadhar"
+        app:layout_constraintTop_toTopOf="@+id/img_aadhar"
         app:layout_constraintVertical_bias="0.773"
         app:srcCompat="@drawable/green_round" />
 
@@ -242,11 +242,11 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView17"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/img_aadhar"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/txt_phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_161sdp"
@@ -265,7 +265,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/txt_aadhar_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_161sdp"
@@ -276,7 +276,7 @@
         android:text="1234 -2344-45467"
         android:textColor="#000000"
         android:textSize="@dimen/_9ssp"
-        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintBottom_toTopOf="@+id/txt_phone"
         app:layout_constraintEnd_toEndOf="@+id/imageView17"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
@@ -284,7 +284,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/txt_last_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_161sdp"
@@ -295,7 +295,7 @@
         android:text="Avalur"
         android:textColor="#000000"
         android:textSize="@dimen/_9ssp"
-        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintBottom_toTopOf="@+id/txt_aadhar_id"
         app:layout_constraintEnd_toEndOf="@+id/imageView17"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
@@ -303,7 +303,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/txt_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_161sdp"
@@ -314,7 +314,7 @@
         android:text="Chandu"
         android:textColor="#000000"
         android:textSize="@dimen/_9ssp"
-        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintBottom_toTopOf="@+id/txt_last_name"
         app:layout_constraintEnd_toEndOf="@+id/imageView17"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
@@ -325,7 +325,7 @@
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_73sdp"
+        android:layout_marginStart="@dimen/_60sdp"
         android:layout_marginTop="@dimen/_63sdp"
         android:layout_marginEnd="@dimen/_9sdp"
         android:layout_marginBottom="@dimen/_12sdp"
@@ -334,7 +334,7 @@
         android:textColor="#000000"
         android:textSize="@dimen/_9ssp"
         app:layout_constraintBottom_toTopOf="@+id/textView22"
-        app:layout_constraintEnd_toStartOf="@+id/textView25"
+        app:layout_constraintEnd_toStartOf="@+id/txt_aadhar_id"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
@@ -344,7 +344,7 @@
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_73sdp"
+        android:layout_marginStart="@dimen/_60sdp"
         android:layout_marginTop="@dimen/_42sdp"
         android:layout_marginEnd="@dimen/_11sdp"
         android:layout_marginBottom="@dimen/_5sdp"
@@ -353,7 +353,7 @@
         android:textColor="#000000"
         android:textSize="@dimen/_9ssp"
         app:layout_constraintBottom_toTopOf="@+id/textView21"
-        app:layout_constraintEnd_toStartOf="@+id/textView24"
+        app:layout_constraintEnd_toStartOf="@+id/txt_last_name"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
@@ -363,7 +363,7 @@
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_73sdp"
+        android:layout_marginStart="@dimen/_60sdp"
         android:layout_marginTop="@dimen/_20sdp"
         android:layout_marginEnd="@dimen/_10sdp"
         android:layout_marginBottom="@dimen/_12sdp"
@@ -372,7 +372,7 @@
         android:textColor="#000000"
         android:textSize="@dimen/_9ssp"
         app:layout_constraintBottom_toTopOf="@+id/textView20"
-        app:layout_constraintEnd_toStartOf="@+id/textView23"
+        app:layout_constraintEnd_toStartOf="@+id/txt_name"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
@@ -382,7 +382,7 @@
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_73sdp"
+        android:layout_marginStart="@dimen/_60sdp"
         android:layout_marginTop="@dimen/_85sdp"
         android:layout_marginEnd="@dimen/_8sdp"
         android:layout_marginBottom="@dimen/_70sdp"
@@ -391,7 +391,7 @@
         android:textColor="#000000"
         android:textSize="@dimen/_9ssp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView17"
-        app:layout_constraintEnd_toStartOf="@+id/textView26"
+        app:layout_constraintEnd_toStartOf="@+id/txt_phone"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
@@ -400,7 +400,7 @@
     <Button
         android:id="@+id/ProcedBtn"
         android:layout_width="@dimen/_213sdp"
-        android:layout_height="@dimen/_30sdp"
+        android:layout_height="@dimen/_28sdp"
         android:layout_centerInParent="true"
 
         android:layout_marginStart="@dimen/_20sdp"
@@ -408,12 +408,13 @@
         android:layout_marginTop="@dimen/_129sdp"
         android:layout_marginEnd="@dimen/_17sdp"
         android:layout_marginBottom="@dimen/_25sdp"
+        android:background="@drawable/button_curve_blue"
         android:text="PROCEED"
         android:textAlignment="center"
+        android:textColor="#ffffff"
+
         android:textSize="@dimen/_9ssp"
         app:backgroundTint="#002E56"
-
-        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="@+id/imageView17"
         app:layout_constraintHorizontal_bias="0.666"

@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.digi_yatra_12">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:name=".GlobalApplication"
         android:allowBackup="true"
+        android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Digi_Yatra_12">
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.Digi_Yatra_12" >
         <activity
             android:name=".fragments.Toast_layout"
             android:exported="false"
@@ -62,7 +66,8 @@
         <activity
             android:name=".fragments.Pop_issuer"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.CustomTheme" />
+            android:theme="@style/Theme.AppCompat.CustomTheme"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".fragments.Credential_Choose"
             android:exported="false" />
@@ -76,7 +81,7 @@
             android:theme="@style/Theme.AppCompat.CustomTheme" />
         <activity
             android:name=".navbar.Navbar_main"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".signup.Otp_page"
             android:exported="false" />
@@ -84,7 +89,7 @@
             android:name=".signup.Signup"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

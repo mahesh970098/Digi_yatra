@@ -269,14 +269,14 @@
         android:layout_marginBottom="@dimen/_12sdp"
         android:backgroundTint="#002E56"
         android:text="Share"
-        android:textSize="@dimen/_6ssp"
+        android:textSize="@dimen/_5ssp"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="@+id/dotBTN"
         app:layout_constraintEnd_toEndOf="@+id/dotBTN"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/dotBTN"
         app:layout_constraintTop_toTopOf="@+id/dotBTN"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/imageButton15"
@@ -293,6 +293,61 @@
         app:layout_constraintTop_toTopOf="@+id/floatingActionButton"
         app:layout_constraintVertical_bias="0.357"
         app:srcCompat="@drawable/add_plus_symbol" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_80sdp"
+        android:fontFamily="@font/poppins"
+        android:text="Cabs"
+        android:textColor="#000000"
+        android:textSize="@dimen/_8ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton7"
+        app:layout_constraintStart_toStartOf="@+id/imageButton7"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_minus5sdp"
+        android:layout_marginBottom="@dimen/_80sdp"
+        android:fontFamily="@font/poppins"
+        android:text="Texi"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_8ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton8"
+        app:layout_constraintStart_toStartOf="@+id/imageButton8"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_80sdp"
+        android:fontFamily="@font/poppins"
+        android:text="Wifi"
+        android:textColor="@color/black"
+
+        android:textSize="@dimen/_8ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton9"
+        app:layout_constraintStart_toStartOf="@+id/imageButton9"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

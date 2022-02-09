@@ -357,13 +357,14 @@
     <Button
         android:id="@+id/HomeBtn"
         android:layout_width="@dimen/_252sdp"
-        android:layout_height="@dimen/_35sdp"
+        android:layout_height="@dimen/_30sdp"
         android:layout_centerInParent="true"
 
         android:layout_marginStart="@dimen/_18sdp"
         android:layout_marginTop="@dimen/_158sdp"
         android:layout_marginEnd="@dimen/_19sdp"
         android:layout_marginBottom="@dimen/_14sdp"
+        android:background="@drawable/button_curve_blue"
         android:text="add your credential"
         android:textAlignment="center"
         android:textColor="#ffffff"

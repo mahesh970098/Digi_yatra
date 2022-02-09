@@ -1,13 +1,13 @@
 package com.example.digi_yatra_12.fragments;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.digi_yatra_12.R;
 
@@ -40,6 +40,7 @@ Button urlBtn;
             public void onClick(View view) {
                 Intent i = new Intent(Add_data_url.this, retrieved_addheerdata.class);
                 startActivity(i);
+                finish();
 
             }
         });

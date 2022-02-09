@@ -22,7 +22,7 @@ public class Pop_sucess_register extends AppCompatActivity {
 
         int width = dm.widthPixels;
         int height = dm.heightPixels;
-        getWindow().setLayout((int) (width * .91), (int) (height * .4));
+        getWindow().setLayout((int) (width * .99), (int) (height * .4));
 
         WindowManager.LayoutParams params = getWindow().getAttributes();
         params.gravity = Gravity.CENTER_HORIZONTAL;

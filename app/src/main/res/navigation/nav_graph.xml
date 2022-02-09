@@ -12,22 +12,16 @@
         android:id="@+id/wallet_fragment2"
         android:name="com.example.digi_yatra_12.fragments.Wallet_fragment"
         android:label="Wallet_fragment" >
+
         <action
-            android:id="@+id/action_wallet_fragment2_to_home_fragment22"
-            app:destination="@id/home_fragment22" />
-        <action
-            android:id="@+id/action_wallet_fragment2_to_id_wallet"
+            android:id="@+id/action_wallet_fragment2_to_id_wallet2"
             app:destination="@id/id_wallet" />
     </fragment>
     <fragment
         android:id="@+id/profile_fragment2"
         android:name="com.example.digi_yatra_12.fragments.Profile_fragment"
         android:label="Profile_fragment" />
-    <fragment
-        android:id="@+id/home_fragment22"
-        android:name="com.example.digi_yatra_12.fragments.Home_fragment2"
-        android:label="fragment_home_fragment2"
-        tools:layout="@layout/fragment_home_fragment2" />
+
     <activity
         android:id="@+id/id_wallet"
         android:name="com.example.digi_yatra_12.fragments.Id_wallet"

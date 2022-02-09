@@ -1,24 +1,18 @@
 package com.example.digi_yatra_12.signup;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.digi_yatra_12.Pop_sucess_register;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.digi_yatra_12.R;
-import com.example.digi_yatra_12.fragments.Pop_acknowledgement;
 import com.example.digi_yatra_12.navbar.Navbar_main;
 
 public class Otp_page extends AppCompatActivity {
@@ -29,6 +23,7 @@ Button home;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otp_page);
+
 //        home =findViewById(R.id.SubmitBtn);
 //        home.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -66,14 +61,16 @@ Button home;
 
 
 
-                    LayoutInflater inflater =getLayoutInflater();
-                    View layout =inflater.inflate(R.layout.activity_toast_layout,(ViewGroup) findViewById(R.id.toast_message));
-                    final Toast toast = new Toast(getApplicationContext());
-                    toast.setGravity(Gravity.CENTER_VERTICAL,0,0);
-
-                    toast.setDuration(Toast.LENGTH_LONG );
-                    toast.setView(layout);
-                    toast.show();
+//                    LayoutInflater inflater =getLayoutInflater();
+//                    View layout = inflater.inflate(R.layout.activity_pop_sucess_register,
+//                            (ViewGroup) findViewById(R.id.toast_message));
+//
+//                    Toast toast = new Toast(getApplicationContext());
+//                    toast.setGravity( Gravity.CENTER_VERTICAL, 0, 0);
+//
+//                    toast.setDuration(Toast.LENGTH_LONG);
+//                    toast.setView(layout);
+//                    toast.show();
 
 //                    Toast.makeText(Otp_page.this,"otp verify",Toast.LENGTH_SHORT ).show();
 
@@ -111,6 +108,8 @@ Button home;
 
 
     }
+
+
 
     private void numberotpmove() {
         inputNumber1.addTextChangedListener(new TextWatcher() {
@@ -176,5 +175,10 @@ Button home;
         });
 
 
+
+
+
     }
+
+
 }

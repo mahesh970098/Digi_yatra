@@ -45,58 +45,6 @@
         app:layout_constraintVertical_bias="0.0" />
 
 
-    <TextView
-        android:id="@+id/textView610"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_5sdp"
-        android:layout_marginTop="@dimen/_3sdp"
-        android:layout_marginEnd="@dimen/_5sdp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Aadaar card"
-        android:textColor="#333333"
-        android:textSize="@dimen/_8ssp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView17"
-        app:layout_constraintEnd_toEndOf="@+id/imageView32"
-        app:layout_constraintStart_toStartOf="@+id/imageView32"
-        app:layout_constraintTop_toBottomOf="@+id/imageView32"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView620"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_5sdp"
-        android:layout_marginTop="@dimen/_3sdp"
-        android:layout_marginEnd="@dimen/_5sdp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Set up Face ID"
-        android:textColor="#333333"
-        android:textSize="@dimen/_8ssp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView17"
-        app:layout_constraintEnd_toEndOf="@+id/imageView33"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@+id/imageView33"
-        app:layout_constraintTop_toBottomOf="@+id/imageView33"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView630"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_5sdp"
-        android:layout_marginTop="@dimen/_3sdp"
-        android:layout_marginEnd="@dimen/_5sdp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Review"
-        android:textColor="#333333"
-        android:textSize="@dimen/_8ssp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView17"
-        app:layout_constraintEnd_toEndOf="@+id/imageView34"
-        app:layout_constraintStart_toStartOf="@+id/imageView34"
-        app:layout_constraintTop_toBottomOf="@+id/imageView34"
-        app:layout_constraintVertical_bias="0.0" />
-
     <View
         android:id="@+id/view2"
         android:layout_width="@dimen/_39sdp"
@@ -179,7 +127,7 @@
         android:fontFamily="@font/poppins_bold"
         android:text="Aadaar card"
         android:textColor="#333333"
-        android:textSize="@dimen/_8ssp"
+        android:textSize="@dimen/_7ssp"
         app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="@+id/imageView32"
         app:layout_constraintStart_toStartOf="@+id/imageView32"
@@ -196,7 +144,7 @@
         android:fontFamily="@font/poppins_bold"
         android:text="Set up Face ID"
         android:textColor="#333333"
-        android:textSize="@dimen/_8ssp"
+        android:textSize="@dimen/_7ssp"
         app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="@+id/imageView33"
         app:layout_constraintHorizontal_bias="0.495"
@@ -214,7 +162,7 @@
         android:fontFamily="@font/poppins_bold"
         android:text="Review"
         android:textColor="#333333"
-        android:textSize="@dimen/_8ssp"
+        android:textSize="@dimen/_7ssp"
         app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="@+id/imageView34"
         app:layout_constraintStart_toStartOf="@+id/imageView34"

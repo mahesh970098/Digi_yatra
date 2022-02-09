@@ -269,12 +269,12 @@
 
     <Button
         android:id="@+id/SubmitBtn"
-        android:layout_width="@dimen/_231sdp"
-        android:layout_height="@dimen/_35sdp"
+        android:layout_width="@dimen/_241sdp"
+        android:layout_height="@dimen/_37sdp"
         android:layout_centerInParent="true"
         android:layout_marginStart="@dimen/_25sdp"
         android:layout_marginTop="@dimen/_48sdp"
-        android:layout_marginEnd="@dimen/_28sdp"
+        android:layout_marginEnd="@dimen/_26sdp"
         android:layout_marginBottom="@dimen/_130sdp"
 
         android:fontFamily="@font/roboto"
@@ -285,7 +285,6 @@
         app:backgroundTint="#979797"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.0" />

@@ -15,17 +15,18 @@ public class Toast_layout extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toast_layout);
+
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
 
         int width = dm.widthPixels;
         int height = dm.heightPixels;
-        getWindow().setLayout((int) (width * .99), (int) (height + 1));
+        getWindow().setLayout((int) (width * .81), (int) (height * .5));
 
         WindowManager.LayoutParams params = getWindow().getAttributes();
         params.gravity = Gravity.CENTER_HORIZONTAL;
         params.x = 0;
-        params.y = 100;
+        params.y = 0;
 
         getWindow().setAttributes(params);
 

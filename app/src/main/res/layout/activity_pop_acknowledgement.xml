@@ -30,14 +30,15 @@
     <Button
         android:id="@+id/OkBtn2"
         android:layout_width="@dimen/_115sdp"
-        android:layout_height="@dimen/_34sdp"
+        android:layout_height="@dimen/_30sdp"
         android:layout_marginStart="@dimen/_15sdp"
         android:layout_marginTop="@dimen/_209sdp"
         android:layout_marginEnd="@dimen/_28sdp"
+        android:background="@drawable/button_curve_blue"
         android:text="Ok"
         android:textColor="#ffffff"
         android:textSize="@dimen/_8ssp"
-        app:backgroundTint="#002E56"
+        app:backgroundTint="#979797"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/cancel_action"
@@ -46,13 +47,14 @@
     <Button
         android:id="@+id/cancel_action"
         android:layout_width="@dimen/_115sdp"
-        android:layout_height="@dimen/_34sdp"
+        android:layout_height="@dimen/_30sdp"
 
         android:layout_centerInParent="true"
         android:layout_marginStart="@dimen/_15sdp"
         android:layout_marginTop="@dimen/_209sdp"
 
         android:layout_marginEnd="@dimen/_98sdp"
+        android:background="@drawable/button_border"
         android:backgroundTint="@color/white"
         android:text="CANCEL"
         android:textColor="#002E56"
